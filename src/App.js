@@ -51,7 +51,7 @@ console.log(tableData)
    <div className='righttableInfo'>
      <form type={'submit'}>
      <input type={'text'} ></input>
-     <button className='search' onClick={addcity}>search</button>
+     <button className='search' >search</button>
      </form>
     
      <tbody>
