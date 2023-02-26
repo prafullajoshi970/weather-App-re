@@ -50,7 +50,7 @@ console.log(tableData)
   <div className='verticalBar'></div>
    <div className='righttableInfo'>
      <form type={'submit'}>
-     <input type={'text'} onChange={(e)=>setCityName(e.target.value)}></input>
+     <input type={'text'} ></input>
      <button className='search' onClick={addcity}>search</button>
      </form>
     
