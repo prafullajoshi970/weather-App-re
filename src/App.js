@@ -18,6 +18,7 @@ const addItem=()=>{
 
 const addcity=(e)=>{
     setCityName( e.target.value);
+    e.preventDefault();
     ApiFetch (cityName)
     addItem();
   }
