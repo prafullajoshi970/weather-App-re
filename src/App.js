@@ -30,7 +30,7 @@ const addcity=(e)=>{
 
 useEffect(() => {
   ApiFetch();
-},[])
+})
 console.log(table)
 console.log(tableData)
 
